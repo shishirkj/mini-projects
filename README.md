@@ -18,8 +18,10 @@
 
 ## ideas
 -> make UI better
+<br>
 -> make indentation better
--> add comments
+<br>
+-> add comments 
 
 ## Code of Conduct
  Inclusive environment for everyone. We expect all contributors to adhere to this code in all project-related activities.
