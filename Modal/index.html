@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal
+    </title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <!-- circle1 -->
+        <div class="circle1"></div>
+
+        <!-- circle2 -->
+        <div class="circle2"></div>
+        
+        <!-- Card -->
+        <div class="card">
+
+            <!-- image -->
+            <img class = "image" src="./Shishir.jpg" >
+
+            <!-- Name -->
+            <h2 class = "name"> Shishir Kumar Jha</h2>
+
+
+            <!--about  -->
+            <h3>Full,Stack Web Developer</h3>
+                <!-- SHARE -->
+                <div  class="bottom-group" >
+                    <button   onclick = "openModal()"    class="btn-share ">
+                    <i class="fa-solid fa-share"></i>
+                        <div>share my profile</div>
+                    </button>
+                    <button  class="btn-follow ">Follow me</button>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <!--modal wrapperr--> 
+           
+          <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div>
+              <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+            </div>
+          </div>
+      
+      
+          <div>
+      
+            <h3>Share this via</h3>
+      
+            
+            <div class="icon-container">
+              <a href="https://www.facebook.com/abhishekmishra.mishra.7524?mibextid=ZbWKwL" class="icon" id="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/abhimishra107?t=JggDz4K5u5WfEBq1VCLfjA&s=09" class="icon" id="twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/abhishekmishra5291?igshid=ZDdkNTZiNTM=" class="icon" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://instagram.com/abhishekmishra5291?igshid=ZDdkNTZiNTM=" class="icon" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/abhishek-mishra-269589220" class="icon" id="telegram">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+      
+      
+        </div>
+
+
+                  <!--overlay componenets-->
+                  <!-- blurry screen when modal apperas it will remove that -->
+
+                  <div class="overlay" onclick="closeModal()"></div>
+
+    <script src="https://kit.fontawesome.com/0786af4cb1.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
