@@ -18,12 +18,17 @@
 
 ## ideas
 -> make UI better![Screenshot (104)](https://github.com/shishirkj/mini-projects/assets/90249481/fc47cd75-c12a-4957-afa6-ac7004666110)
-
 <br>
 -> make indentation better
 <br>
 -> add comments 
 
+
+## Other projects
+
+![Counter - Brave 19-06-2023 21_19_32](https://github.com/shishirkj/Simple-Counter/assets/90249481/3cadf6ff-493f-46cf-917e-84921b57e901)
+
+<br>
 ## Code of Conduct
  Inclusive environment for everyone. We expect all contributors to adhere to this code in all project-related activities
 
