@@ -27,7 +27,8 @@
 ## Other projects
 
 ![Counter - Brave 19-06-2023 21_19_32](https://github.com/shishirkj/Simple-Counter/assets/90249481/3cadf6ff-493f-46cf-917e-84921b57e901)
-
+<br>
+![Screenshot (105)](https://github.com/shishirkj/mini-projects/assets/90249481/4e88678b-edf9-4bc8-bc79-9b26c2aa5efa)
 <br>
 ## Code of Conduct
  Inclusive environment for everyone. We expect all contributors to adhere to this code in all project-related activities
